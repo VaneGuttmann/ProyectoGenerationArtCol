@@ -1,0 +1,20 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+.carousel-item {
+	height: 65vh;
+
+}
+
+.w-100 {
+	height: 100%;
+	object-fit: unset;
+}
+
+
+.card-img-top {
+	height: 30vh;
+}

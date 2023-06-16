@@ -1,0 +1,28 @@
+
+
+
+body {
+    text-align:center;
+    color: red;
+}
+    
+@media (max-width:500px) {body {color:blue;
+grid-template-areas: "header,header,content" 
+"slidebar"
+"footer";}}
+
+@media (max-width:1024px) {body{color: orangered; 
+}}
+
+@media (orientation:landscape){ /* cuando la anchura es mayor que la altura*/
+    body{
+        color: green;
+    }
+
+}
+
+@media (orientation: landscape) and (max-width:500px){
+    body{
+        color: yellow; 
+    }
+}
