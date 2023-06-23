@@ -53,13 +53,16 @@
                 }
 
                 selector.toggleClass('iq-show');
-                mainElement.toggleClass('active');
+                
+                
+                Element.toggleClass('active');
                 e.preventDefault();
             } else if (jQuery(myTargetElement).is('search-input')){} else {
                 jQuery('.navbar-right li').removeClass('.iq-show');
                 jQuery('.navbar-right li .search-toggle').removeClass('active');
             }
         });
+
         jQuery(document).on('click', function(event){
             var $trigger = jQuery(".main-header .navbar");
             if($trigger !== event.target && !$trigger.has(event.target).length){

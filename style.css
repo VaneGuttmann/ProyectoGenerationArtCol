@@ -9,7 +9,7 @@ body{
     padding: 0;
     margin: 0;
     color: #d1d0cf;
-    background: #141414;
+    background: #100F0F ;
 }
 .container-fluid{
     padding: 0 100px;
@@ -56,7 +56,7 @@ header .navbar ul li.menu-item a{
     z-index: 9;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
-    text-transform: uppercase;
+    
 }
 header .navbar ul li.menu-item a:hover{
     color: #e50914 !important;
@@ -92,9 +92,6 @@ header .navbar ul li.menu-item a:hover{
     color: #e50914;
 }
 
-.navbar ul.navbar-nav>li.menu-item>a{
-    text-transform: uppercase;
-}
 .navbar ul.navbar-nav>li:hover > a{
     font-weight: 600;
 }
@@ -772,13 +769,13 @@ header#main-header.menu-sticky{
     z-index: 1;
 }
 #home-slider .slick-bg.s-bg-1{
-    background-image: url(images/slider/slider1.jpg);
+    background-image: url(images/slider/cine.jpg);
 }
 #home-slider .slick-bg.s-bg-2{
-    background-image: url(images/slider/slider2.jpg);
+    background-image: url(images/slider/perro.jpg);
 }
 #home-slider .slick-bg.s-bg-3{
-    background-image: url(images/slider/slider3.jpg);
+    background-image: url(images/slider/Pálpito2.jpg);
 }
 
 .slick-bg::before{
@@ -1670,7 +1667,7 @@ li.slide-item .block-description .parallax-ratting span{
     height: 100%;
     padding: 100px 0;
     position: relative;
-    background: url(images/parallax/avatar.jpg) center center;
+    background: url(images/parallax/sumerce.jpg) center center;
     background-size: cover;
     background-attachment: fixed ;
 }
