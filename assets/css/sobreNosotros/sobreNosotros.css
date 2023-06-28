@@ -3,6 +3,11 @@
 	padding: 0;
 }
 
+.contenido {
+	width: 100%;
+	background-color: #100F0F;
+}
+
 
 .carousel-item {
 	height: 65vh;
@@ -18,3 +23,7 @@
 .card-img-top {
 	height: 30vh;
 }
+
+
+
+
